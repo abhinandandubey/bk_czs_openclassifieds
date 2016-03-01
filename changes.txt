@@ -1,0 +1,14 @@
+styles.css Line 174 .container{width: 100%!important;}
+header.php: Line 86 : Add  <?=View::factory('widget_login')?>
+Create widget_reg.php : A User registration Widget.
+Modify widget_reg.php : Line 69 : <i class="glyphicon glyphicon-user"></i> <?=__('Register')?>
+Modify widget_reg.php : Lline 68 : <a class="btn btn-default" data-toggle="modal" href="<?=Route::url('oc-panel',array('directory'=>'user','controller'=>'auth','action'=>'register'))?>#register-modal">
+Modify widget_reg.php : Remove(Line4-66)
+Modify header.php : COUT(Lines 33-81)
+Modify main.php : <div class="row content">
+Modify main.php : Add(Lines 28-187)
+Modify header.php :  <?=__('Post Your Classified Now')?>
+Modify CZSale.css : COUT(z-index:1040;)
+Modify styles.css : .navbar-inverse .navbar-nav>li>a{color:#000;}
+Modify main.php :         <div class="row content" style="margin-top:120px;">
+Modify header.php :   <a class="navbar-brand" href="<?=Route::url('default')?>"><img style="height:100px !important;" alt="logo" data-at2x="http://bikaaoo.com/img/logo1.gif" src="http://bikaaoo.com/img/logo1.gif"><? /* <h1><?=core::config('general.site_name')?></h1> */ ?></a>
